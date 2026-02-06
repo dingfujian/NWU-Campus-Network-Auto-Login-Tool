@@ -21,7 +21,7 @@
 
 ### 2. 下载与运行
 
-1. 从 [Releases](https://github.com/your-repo/releases) 下载最新的 `campus_login.exe` 文件
+1. 从 [Releases]下载最新的 `campus_login.exe` 文件
 2. 双击运行 `campus_login.exe`
 3. 首次运行时，程序会自动下载 ChromeDriver（需要网络连接）
 
@@ -79,12 +79,9 @@ pyinstaller --onefile --noconsole campus_login.py
 campus_auto_login/
 ├── campus_login.py      # 主程序源码
 ├── campus_login_test.py # 测试脚本
-├── icon.ico             # 程序图标
-├── README.md            # 项目说明文档
 ├── config.json          # 配置文件（运行后自动生成）
 ├── campus_login.log     # 日志文件（运行后自动生成）
-└── dist/
-    └── campus_login.exe # 打包后的可执行文件
+└──campus_login.exe # 打包后的可执行文件
 ```
 
 ## 注意事项
