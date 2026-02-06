@@ -21,7 +21,7 @@
 
 ### 2. 下载与运行
 
-1. 从 [Releases]下载最新的 `campus_login.exe` 文件
+1. 从 build/ 下载 `campus_login.exe` 文件
 2. 双击运行 `campus_login.exe`
 3. 首次运行时，程序会自动下载 ChromeDriver（需要网络连接）
 
