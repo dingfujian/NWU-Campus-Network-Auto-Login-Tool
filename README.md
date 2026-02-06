@@ -76,9 +76,10 @@ pyinstaller --onefile --noconsole campus_login.py
 ## 项目结构
 
 ```
-campus_auto_login/
+src/
 ├── campus_login.py      # 主程序源码
 ├── campus_login_test.py # 测试脚本
+build/
 ├── config.json          # 配置文件（运行后自动生成）
 ├── campus_login.log     # 日志文件（运行后自动生成）
 └──campus_login.exe # 打包后的可执行文件
